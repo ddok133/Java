@@ -1,4 +1,4 @@
-class A {
+class building {
 	public String Name = "A大樓設計圖";
 	public int Size = 30;
 	public String Price = "300萬";
@@ -10,8 +10,8 @@ public class Exercise5 {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
-		A A1;
-		A1 = new A();
+		building A1;
+		A1 = new building();
 		A1.Name = "A1大樓";
 		A1.Price = "350萬";
 
@@ -21,7 +21,7 @@ public class Exercise5 {
 		System.out.println("Quantity :" + A1.Quantity);
 		System.out.println();
 
-		A A2 = new A(); // 另一個寫法
+		building A2 = new building(); // 另一個寫法
 		A2.Name = "A2大樓";
 		A2.Quantity = 30;
 
